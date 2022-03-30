@@ -13,8 +13,8 @@ class AdministradorProductosTest {
     public void main() {
         Double Descuento;
         Descuento = 150.0;
-        Producto p1 = new Producto(101, "Café", 1500);
-        assertEquals(Descuento, p1.getDescuento());
+        Comida p3 = new Comida(103, "Pastel", 2000, LocalDate.now());
+        assertEquals(Descuento, p3.getDescuento());
 
     }
 }
